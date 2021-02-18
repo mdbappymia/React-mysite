@@ -27,7 +27,7 @@ const Home = () => {
               </h3>
               <div className="mt-5">
                 <a href="#" className="btn btn-primary btn-get-started">
-                  Get Started
+                  Hire Me
                 </a>
               </div>
             </div>
