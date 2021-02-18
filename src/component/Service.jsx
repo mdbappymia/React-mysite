@@ -18,7 +18,7 @@ const Service = () => {
             <b>Web Development Service</b>
           </h1>
           <p>I made some web development project. These are sample of this.</p>
-          <div className="row">
+          <div className="row dev-sec">
             <div className="col-md-4">
               <Card
               className="card-effect"
@@ -41,7 +41,7 @@ const Service = () => {
               <Card
               className="card-effect"
                 cardtitle="Edevs Radio"
-                cardtext="In this site, you can get all country corona update."
+                cardtext="In this site, thats is live online radio streaming."
                 src="assets/web/EdevsRadio.png"
                 href="https://mdbappymia.github.io/RadioProject"
               />
@@ -50,7 +50,7 @@ const Service = () => {
               <Card
               className="card-effect"
                 cardtitle="Radio Project"
-                cardtext="In this site, you can get all country corona update."
+                cardtext="In this site,that is a live radio station. It use html,css and javascript."
                 src="assets/web/HetRadio.png"
                 href="http://hetstamcafe.compra.nl"
               />
@@ -58,8 +58,8 @@ const Service = () => {
             <div className="col-md-4">
               <Card
               className="card-effect"
-                cardtitle="Corona Update"
-                cardtext="In this site, you can get all country corona update."
+                cardtitle="Portfolio Site"
+                cardtext="This is a personal portfolio template site, it created by html,css and javascript."
                 src="assets/web/PortfolioSite.png"
                 href="https://mdbappymia.github.io/Dark-Protfolio-Site"
               />
@@ -67,9 +67,9 @@ const Service = () => {
               <div className="col-md-4">
               <Card
               className="card-effect"
-                cardtitle="Corona Update"
-                cardtext="In this site, you can get all country corona update."
-                src="assets/web/PortfolioSite.png"
+                cardtitle="Another site"
+                src="assets/web/site2.png"
+                cardtext="This is a personal portfolio template site, it created by html,css and javascript."
                 href="https://mdbappymia.github.io/Dark-Protfolio-Site"
               />
               </div>
@@ -85,31 +85,30 @@ const Service = () => {
               <Card
               src="assets/web/backlinks.png"
               cardtitle="Profile Backlinks"
-              cardtext = "Profile backlinks service"
+              cardtext = "A backlink is a link created when one website links to another. Backlinks are also called inbound links or incoming links ."
+              href='https://moz.com/learn/seo/backlinks'
               />
             </div>
             <div className="col-md-4">
               <Card
-              src="assets/web/backlinks.png"
-              cardtitle="Profile Backlinks"
-              cardtext = "Profile backlinks service"
+              src="assets/web/web2.0.jpg"
+              cardtitle="Web 2.0 Backlinks"
+              cardtext = "Web 2.0 links are powerful ways to help control the conversation of content that’s directed to a website. "
+              href="https://www.novomotus.com/web-2-0-backlinks/"
               />
             </div>
             <div className="col-md-4">
               <Card
-              src="assets/web/backlinks.png"
-              cardtitle="Profile Backlinks"
-              cardtext = "Profile backlinks service"
+              src="assets/web/socal.jpg"
+              cardtitle="Social Media Marketing"
+              cardtext = "Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers."
+              href="https://www.wordstream.com/social-media-marketing"
               />
             </div>
           </div>
         </div>
       </div>
       <div className="section-s-4">
-        <div className="container">
-          <h1 className="py-5">Grapgic design</h1>
-          
-        </div>
       </div>
     </>
   );

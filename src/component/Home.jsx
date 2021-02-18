@@ -20,11 +20,11 @@ const Home = () => {
               <h1>
                 This is <strong className="brand-name">Md Bappy Mia</strong>
               </h1>
-              <h2 className="my-3">
+              <h3 className="my-3">
                 I am a professional web developer. I am highly working on react
                 and other javascript framwork. I liked javascript very much. I
                 also working on digital marketing sector.
-              </h2>
+              </h3>
               <div className="mt-5">
                 <a href="#" className="btn btn-primary btn-get-started">
                   Get Started
