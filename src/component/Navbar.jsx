@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
+import {
+  FaAlignJustify
+} from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <div className=" bg-dark nav-color">
+      <div className=" bg-dark nav-color sticky-top">
         <nav className="navbar navbar-expand-lg container ">
           <div className="container-fluid">
             <NavLink className="navbar-brand nav-color" to="/">
@@ -20,7 +23,7 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon nav-color"></span>
+              <FaAlignJustify />
             </button>
             <div
               className="collapse navbar-collapse nav-color"

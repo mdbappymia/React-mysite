@@ -35,6 +35,7 @@ const Service = () => {
                 cardtext="You can get all bangla meaning of english word"
                 src="assets/web/Bangla-dictionary.png"
                 href="https://mdbappymia.github.io/E2BDictionary"
+                alt="Image"
               />
             </div>
             <div className="col-md-4">
@@ -44,6 +45,7 @@ const Service = () => {
                 cardtext="In this site, thats is live online radio streaming."
                 src="assets/web/EdevsRadio.png"
                 href="https://mdbappymia.github.io/RadioProject"
+                alt="Image"
               />
             </div>
             <div className="col-md-4">
@@ -53,6 +55,7 @@ const Service = () => {
                 cardtext="In this site,that is a live radio station. It use html,css and javascript."
                 src="assets/web/HetRadio.png"
                 href="http://hetstamcafe.compra.nl"
+                alt="Image"
               />
             </div>
             <div className="col-md-4">
@@ -62,6 +65,7 @@ const Service = () => {
                 cardtext="This is a personal portfolio template site, it created by html,css and javascript."
                 src="assets/web/PortfolioSite.png"
                 href="https://mdbappymia.github.io/Dark-Protfolio-Site"
+                alt="Image"
               />
               </div>
               <div className="col-md-4">
@@ -71,6 +75,7 @@ const Service = () => {
                 src="assets/web/site2.png"
                 cardtext="This is a personal portfolio template site, it created by html,css and javascript."
                 href="https://mdbappymia.github.io/Dark-Protfolio-Site"
+                alt="Image"
               />
               </div>
           </div>
@@ -87,6 +92,7 @@ const Service = () => {
               cardtitle="Profile Backlinks"
               cardtext = "A backlink is a link created when one website links to another. Backlinks are also called inbound links or incoming links ."
               href='https://moz.com/learn/seo/backlinks'
+              alt="Image"
               />
             </div>
             <div className="col-md-4">
@@ -95,6 +101,7 @@ const Service = () => {
               cardtitle="Web 2.0 Backlinks"
               cardtext = "Web 2.0 links are powerful ways to help control the conversation of content that’s directed to a website. "
               href="https://www.novomotus.com/web-2-0-backlinks/"
+              alt="Image"
               />
             </div>
             <div className="col-md-4">
@@ -103,6 +110,7 @@ const Service = () => {
               cardtitle="Social Media Marketing"
               cardtext = "Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers."
               href="https://www.wordstream.com/social-media-marketing"
+              alt="Image"
               />
             </div>
           </div>

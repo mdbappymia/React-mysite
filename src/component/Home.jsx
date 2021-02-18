@@ -26,16 +26,15 @@ const Home = () => {
                 also working on digital marketing sector.
               </h3>
               <div className="mt-5">
-                <a href="#" className="btn btn-primary btn-get-started">
+                <a href="https://ww.fiverr.com/devbappy" className="btn btn-primary btn-get-started">
                   Hire Me
                 </a>
               </div>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-6 col-sm-12">
               <img
-                className="my-pic"
-                style={{ height: 450, width: 600 }}
                 src="assets/bappy.png"
+                alt=""
               />
             </div>
           </div>
@@ -53,7 +52,7 @@ const Home = () => {
             </p>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 col-sm-12">
               <div>
                 <FaJsSquare
                   style={{ fontSize: 40, color: "yellow", margin: 5 }}

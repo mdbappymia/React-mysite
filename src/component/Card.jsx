@@ -1,14 +1,13 @@
 import React from "react";
-
 function Card(props) {
   return (
     <div>
       <div className="card my-3">
         <img
-          className="card-img-top"
+          className="card-img-top img-fluid"
           style={{ height: 300 }}
           src={props.src}
-          alt="Card image cap"
+          alt={props.alt}
         />
         <div className="card-body">
           <h5 className="card-title">{props.cardtitle}</h5>
