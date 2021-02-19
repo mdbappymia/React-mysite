@@ -4,10 +4,11 @@ const About=()=> {
     return (
         <>
             <div className="section-a-1">
-                <div className="container">
-                    <h1 className="text-center py-5">About Me</h1>
+                <div className="container py-5">
+                    <h1 className="text-center py-5 m-0">About Me</h1>
                 </div>
-                <div className="section-a-2">
+            </div>
+                <div className="section-a-2 py-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
@@ -70,8 +71,7 @@ const About=()=> {
 
                     </div>
                 </div>
-            </div>
-            <div className="section-a-3 py-5">
+            <div className="section-a-4 py-5">
                     <div className="container">
                         <h1 className="text-center py-5">Favourite</h1>
                         <h4>Favourite People: <span className="lead">Hazrat Mohammad(sm)</span></h4>
