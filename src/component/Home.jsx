@@ -10,6 +10,7 @@ import {
   FaVuejs,
 } from "react-icons/fa";
 import "./App.css";
+import SocialLink from "./SocialLink";
 const Home = () => {
   return (
     <>
@@ -26,10 +27,11 @@ const Home = () => {
                 also working on digital marketing sector.
               </h3>
               <div className="mt-5">
-                <a href="https://ww.fiverr.com/devbappy" className="btn btn-primary btn-get-started">
+                <a href="https://www.fiverr.com/devbappy" target="_blank" rel="noreferrer" className="btn btn-primary btn-get-started">
                   Hire Me
                 </a>
               </div>
+              <SocialLink />
             </div>
             <div className="col-md-6 col-sm-12">
               <img

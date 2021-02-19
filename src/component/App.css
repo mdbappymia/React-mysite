@@ -56,3 +56,18 @@
   background-color: rgb(84, 100, 136);
   color: #d4e2ff;
 }
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.s-link {
+  padding: 0;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.s-link-l {
+  color: #d4e2ff;
+}

@@ -19,16 +19,16 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <form action="POST">
+                    <form action="https://formspree.io/f/mrgovoqj" method="post">
                         <label className="d-block py-3" htmlFor="Your Name">Your Name:
                         </label>
-                        <input className="d-block w-100" type="text"/>
-                        <label className="d-block py-3" htmlFor="Your Name">Your Email:
+                        <input className="d-block w-100" name="Name" type="text"/>
+                        <label className="d-block py-3" htmlFor="Your Name:">Your Email:
                         </label>
-                        <input className="d-block w-100" type="email"/>
+                        <input className="d-block w-100" name="Email:" type="email"/>
                         <label className="d-block py-3" htmlFor="Your Name">Your Message:
                         </label>
-                        <textarea name="" className="w-100" rows="10"></textarea>
+                        <textarea className="w-100" name="Message:" rows="10"></textarea>
                         <input className="btn btn-primary mt-3" type="submit" value="Send Message"/>
                     </form>
                 </div>

@@ -74,6 +74,9 @@ const About=()=> {
             <div className="section-a-3 py-5">
                     <div className="container">
                         <h1 className="text-center py-5">Favourite</h1>
+                        <h4>Favourite People: <span className="lead">Hazrat Mohammad(sm)</span></h4>
+                        <h4>Favourite Game: <span className="lead">Cricket</span></h4>
+                        <h4>Favourite Color: <span className="lead">Black</span></h4>
                     </div>
                 </div>
         </>
