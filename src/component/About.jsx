@@ -29,7 +29,7 @@ const About=()=> {
                 </div>
                 <div className="section-a-3 py-5">
                     <div className="container">
-                        <h1 className="text-center py-5">Educational ststus</h1>
+                        <h1 className="text-center py-5">Educational status</h1>
                          <table className="w-75 mx-auto">
                              <tr className="p-1 border-1">
                                  <th className="p-1 border-1">No.</th>
